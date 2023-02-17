@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Mastering" the Terminal</title>
+</head>
+
+<body>
+    <h1>"Mastering" the Terminal</h1>
+    <p>The terminal allows us to directly communicate with the computer/device.</p>
+    <br>
+    <h2>KEY ADVANTAGES OF USING THE TERMINAL</h2>
+    <ul>
+        <li>
+            <h3>SPEED!</h3>
+            <p>Practice makes perfect! Some concepts may seem pointless or feel frustrating, but once you are familiar
+                with the
+                terminal, it can be MUCH faster than using a GUI.</p>
+        </li>
+        <li>
+            <h3>ACCESS!</h3>
+            <p>The terminal provides a 'mainline' into the heart of our computer. Giving us access to areas we normally
+                don't
+                interact with.</p>
+        </li>
+        <li>
+            <h3>TOOLS!</h3>
+            <p>Many of the tools we need are installed and used via the command line. We don't have much of a choice
+                here.</p>
+        </li>
+    </ul>
+
+    <h2>A BRIEF GLOSSARY</h2>
+    <ul>
+        <li>
+            <p><b>TERMINAL</b> -- A text-based interface to your computer. Originally a physical object but now we use
+                software terminals.</p>
+        </li>
+        <li>
+            <p><b>SHELL</b> -- The actual program running on the terminal.</p>
+            <p> "BASH" and "Z-SHELL" are two of the most popular shells today.</p>
+        </li>
+    </ul>
+
+
+    <h2>BASIC COMMANDS</h2>
+    <ul>
+        <li>
+            <p><b>"ls"</b> stands for list. The terminal will list the current contents of the directory you are in at
+                that moment.</p>
+        </li>
+        <li>
+            <p><b>the "~"</b> is a shortcut to your "HOME' directory.</p>
+        </li>
+        <li>
+            <p><b>"pwd"</b> stands for 'Print Working Directory.' Prints the path to the working directory (where you
+                currently are).</p>
+        </li>
+        <li>
+            <p><b>"cd"</b> stands for 'Change Directory.'</p>
+            <p>IN THE TERMINAL: type "cd *existing directory name*"</p>
+            <!-- cd sample -->
+            <p>IN THE TERMINAL: type "cd .." to return up one level. THE SPACE IS IMPORTANT!</p>
+            <!-- cd .. -->
+            <p>You can access ANY 'folder'/'directory' by using "cd /abc/123/xyz" This is known as "ABSOLUTE PATHS" vs.
+                "RELATIVE PATHS" which do not use slashes and 'move' you relative to the current directory in use.</p>
+            <!-- cd /sample1/sample2/etc -->
+        </li>
+        <li>
+            <p><b>"mkdir"</b> stands for "make directory." It will create a new directory or directories.</p>
+            <!-- mkdir DwarfGoats NormalGoats -->
+            <p>Type "mkdir .." to make a new directory, one folder 'above' the current one.</p>
+            <!-- mkdir .. -->
+            <p>Type "mkdir Frogs/TreeFrogs SugarGliders," as an example, to create two new directories inside of the
+                pre-existing /frogs. All inside of /pets</p>
+        </li>
+        <li>
+            <p><b>"man"</b> stands for manual and is followed by another command, which "manual" will provide a
+                description of. This includes a list of parameters called "flags" that can be used with the given
+                command. </p>
+            <!-- man ls -->
+            <p>TYPE "Q" TO EXIT</p>
+            <!-- q -->
+            <p>Type "ls -l" to access the flag "l", whose function does not matter for now.</p>
+            <!-- ls -l -->
+        </li>
+        <li>
+            <p><b>"touch"</b> creates a new file (or multiple) from the command line.</p>
+            <p>Type "touch fileName.txt otherFile.html" or whatever file type (.html, .js, .css, etc.) you want to
+                create. List them as shown to create multiple in a single command.</p>
+            <!-- touch fileName.type -->
+            <p>IF called upon an existing file, it will "touch" it, and update its "last modified" time.</p>
+        </li>
+        <li>
+            <p><b>"rm"</b> will <b>PERMANENTLY</b> "remove" the called file.</p>
+            <!-- rm file -->
+            <p>There is also <b>"rmdir"</b> to remove a directory, but ONLY works if the directory called is empty.</p>
+            <!-- rmdir directory -->
+            <p><b>"rm -rf"</b> stands for "remove -recursive force", meaning all items inside the called directory
+                (recursive) will be deleted without asking permissions (force).</p>
+            <!-- VOID DELETE ALL ITEMS IN GIVEN DIRECTORY -->
+            <!-- rm -rf target  -->
+            <p><b>WARNING!! THERE IS NO TRASH CAN OR RECYCLE BIN TO RECOVER FROM. ENTER THE VOID.</b></p>
+        </li>
+    </ul>
+</body>
+
+</html>
